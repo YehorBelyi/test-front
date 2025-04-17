@@ -1,0 +1,14 @@
+.results-container {
+    margin: auto;
+    width: 1400px;
+    height: 500px;
+    /* background-color: lightgray; */
+    text-align: center;
+}
+
+.results-allcards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
