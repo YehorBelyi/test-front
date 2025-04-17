@@ -1,31 +1,54 @@
-.presentation-container {
-    margin: auto;
-    width: 1400px;
-    height: 400px;
-    background-color: rgb(160, 160, 160);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
+.hero {
+    background: #2e2f42;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.presentation-info {
-    width: 700px;
-    height: 200px;
-    margin-right: 90px;
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
-.presentation-image img {
-    width: 600px;
-    height: 300px;
-
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.presentation-image {
-    width: 700px;
-    height: 400px;
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
-.presentation-info, .presentation-image {
- 
+.hero-text {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }

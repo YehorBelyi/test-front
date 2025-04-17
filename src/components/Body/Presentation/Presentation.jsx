@@ -1,18 +1,14 @@
 import "./Presentation.css"
-import first_photo from"./assets/1.png"
+import first_photo from "./assets/1.png"
 
 function PresentationComponent() {
-    return (<div className="presentation-container">
-        <div className="presentation-info">
-            <h2>SAFEZONE - психотерапія онлайн</h2>
-            <h2>Знайди саме свого психотерапевта</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
-            <input type="button" value="Знайти саме свого психотерапевта" />
+    return (<section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Ваша підтримка поруч!</h1>
+            <p className="hero-text">Онлайн-платформа надає українцям безкоштовну психологічну допомогу. Якщо ви відчуваєте тривогу, у вас трапляються панічні атаки, ви близькі до депресії чи навіть на межі – залиште заявку та очікуйте. Спеціаліст зв’яжеться з вами якомога швидше.</p>
+            <button type="button" class="hero-btn">Запросити допомогу</button>
         </div>
-        <div className="presentation-image">
-            <img src={first_photo} alt="photo1.png"></img>
-        </div>
-    </div>);
+    </section>);
 }
 
 export default PresentationComponent;
