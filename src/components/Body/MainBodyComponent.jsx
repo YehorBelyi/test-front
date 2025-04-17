@@ -4,9 +4,9 @@ import ResultsComponent from "./Results/Results";
 
 function MainComponent() {
     return (<div className="body-container">
-        {/* <FormComponent/> */}
         <PresentationComponent />
-        <ResultsComponent/>
+        <ResultsComponent />
+        <FormComponent/>
     </div>  );
 }
 
