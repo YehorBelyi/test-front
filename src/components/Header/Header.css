@@ -1,0 +1,51 @@
+:root{
+    --first-font: Roboto;
+}
+
+.header-container {
+    width: 100%;
+    height: 72px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eceaea;
+    font-family: var(--first-font);
+    position: relative;
+}
+
+.composed-container {
+    display: flex;
+    align-items: center;}
+
+.header-logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.links {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+
+.zone-info {
+    display: flex;
+}
+
+.text-logo {
+    color: rgb(65, 152, 182);
+}
+
+.zone-info p {
+    padding: 0px 20px;
+    color: #434455;
+    font-weight: 400;
+}
